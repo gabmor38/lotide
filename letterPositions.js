@@ -20,15 +20,14 @@ const assertArraysEqual = function (arr1, arr2) {
 const letterPositions = function (sentence) {
   const result = {};
 
-  
   for (const index in sentence) {
-    const letter = sentence[index];
+    const letter = sentence[index]; 
     if (letter === ' ') {//create and if to check for blank spaces
       continue; // if no blank spaces continue and do nothing - Continue is the same as "Break"
     }
 
     if (!result[letter]) { // if doesnot (!) there is no key object in the index create and array for it.
-      result[letter] = [];
+      result[letter] = []; // declares a new array
     }
 
     result[letter].push(Number(index)); // Push the index position to the object key. The result was a string and had to convert to Number 
