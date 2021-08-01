@@ -39,4 +39,5 @@ const map = function(array, callback) {
 const words = ["ground", "control", "to", "major", "tom"];
 const results1 = map(words, word => word[0]);
 console.log(results1);
+console.log(assertArraysEqual(eqArrays(["ground", "control", "to", "major", "tom"], [ 'g', 'c', 't', 'm', 't' ])))
 
