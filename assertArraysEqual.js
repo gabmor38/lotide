@@ -1,11 +1,3 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅✅ Assertion Passed: "${actual}" === "${expected}"`);
-  } else {console.log(`🛑🛑🛑🛑 Assertion Failed: "${actual}" !== "${expected}"`);
-  }
-};
-//assertEqual("Lighthouse Labs", "Bootcamp");
-//assertEqual(1, 1);
 
 const assertArraysEqual = function(arr1, arr2) {
   let result = true;
@@ -18,8 +10,5 @@ const assertArraysEqual = function(arr1, arr2) {
   return result;
 };
 
-assertEqual(assertArraysEqual([1, 2, 3], [1, 2, 3]), true); // => should PASS
-assertEqual(assertArraysEqual([1, 2, 3], [1, 2, 3]), true);
-assertEqual(assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]),true);
-assertEqual(assertArraysEqual([1, 2, 3], [3, 2, 1]), false);
-assertEqual(assertArraysEqual(["1", "2", "3"], ["1", "2", 3]),false);
+module.exports = assertArraysEqual;
+
