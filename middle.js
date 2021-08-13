@@ -1,15 +1,5 @@
-const assertArraysEqual = function(arr1, arr2) {
-  let result = true;
-  for (let i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i]) {
-      result = false;
-    } else {
-      result = true;
-    }
-  }
-  return result;
-};
-
+const eqArrays = require('./eqArrays');
+const assertArraysEqual = require('./assertArraysEqual');
 
 const middle = function(arr) {
   const newArray = []; //declare new array that will have the new values
@@ -31,7 +21,6 @@ const middle = function(arr) {
   return newArray;
 };
 
-console.log(middle([1, 2, 3]));//=>[2]
-console.log(middle([1]));// => []
-console.log(middle([1, 2]));// => [])
-console.log(middle([1, 2, 3, 4])); //=>[2 , 3]
+module.exports = middle;
+
+
