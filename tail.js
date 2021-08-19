@@ -5,10 +5,3 @@ const tail = function(array) {
 };
 
 module.exports = tail;
-
-
-
-//assertEqual("Lighthouse Labs", "Bootcamp");
-//assertEqual(1, 1);
-//assertEqual([1, 2, 3] == [1, 2, 3]);
-//assertEqual(result,["lighthouse", "Labs"]);
