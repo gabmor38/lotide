@@ -24,10 +24,9 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `assertEqual(...)`: tests a functions return value given a primitive value.
-* `countLetters(...)`: returns how many times each letter appears within a given string.
-* `findKey(...)`: returns the first object ket matching a given value.
-* `map(...)`: returns the first letter of each elelment in an array.
+* `assertArraysEqual(...)`: function that tests if arrays are the same.
+* `assertEqual(...)`: function that tests if two values are equal.
+* `eqArrays(...)`: function that compares two arrays.
 * `head(...)`: returns the first element of an array.
 * `tail(...)`: returns all but the first element of an array.
 * `middle(...)`: returns the middle element of an array.
