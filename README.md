@@ -24,7 +24,7 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `assertArraysEqual(...)`: function that tests if arrays are the same.
+* `assertArraysEqual(...)`: function that tests if arrays are equal.
 * `assertEqual(...)`: function that tests if two values are equal.
 * `eqArrays(...)`: function that compares two arrays.
 * `head(...)`: returns the first element of an array.
